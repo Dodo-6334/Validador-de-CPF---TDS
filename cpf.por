@@ -126,7 +126,7 @@ programa {
         escreva("\nprimeiro digito informado no CPF: ",cpf_formatado[9])
         escreva("\nComparação do PDV encontrado com PDV digitado: ",primeiro_verificado == cpf_formatado[9],"\n")
         escreva("\no Segundo dígito verificado pelo sistema é: ", segundo_verificado)
-	      escreva("\nSegundo dígito informado no CPF: ", cpf_formatado[10])
-	      escreva("\nVerificação do segundo dígito: ", segundo_verificado == cpf_formatado[10])
+        escreva("\nSegundo dígito informado no CPF: ", cpf_formatado[10])
+	escreva("\nVerificação do segundo dígito: ", segundo_verificado == cpf_formatado[10])
   }
 }
